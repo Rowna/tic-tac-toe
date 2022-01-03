@@ -88,7 +88,7 @@ class Game extends Component {
                     </button>
                   </i>
                 ))}
-              </ol> 
+              </ol>
             </div>
             <div className="game-board">
               <Board 

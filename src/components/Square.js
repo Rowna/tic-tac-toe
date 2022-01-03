@@ -6,7 +6,8 @@ function Square(props) {
         // onCLick={props.onClick} heißt: props haben einen Event von onClick
         // und dieses Event ruft die Function aus Board auf, 
         // und diese Function hat die handleClick
-        <button className="square" onClick={props.onClick}>
+        <button className="square" 
+                onClick={props.onClick}>
             {props.value}    
         </button> 
     );
